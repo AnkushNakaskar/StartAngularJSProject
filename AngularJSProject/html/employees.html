@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Angular JS Project</title>
+</head>
+
+<body ng-app="PersonApp" ng-controller="personController">
+  <table>
+    <thead>
+      <tr><th colspan="4">Peoples details</th></tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="person in numberOfEmployees">
+        <td>{{$index + 1}} </td>
+          <td>{{squareValue}}</td>
+          
+          
+        <td>
+          
+          {{person.first_name}}&nbsp;{{person.last_name}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/personServices.js"></script>
+  <script src="js/personController.js"></script>
+</body>
+</html>

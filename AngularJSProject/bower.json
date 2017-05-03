@@ -1,0 +1,12 @@
+{
+  "name": "angularjsproject",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-mocks": "^1.6.4",
+    "angular-material": "^1.1.1"
+  }
+}
